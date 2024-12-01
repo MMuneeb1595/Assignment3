@@ -1,0 +1,48 @@
+table{
+    padding: 20px;
+    margin: 20px;
+}
+th,tr,td{
+    border: 1px solid #1E3E62;
+    padding: 5px;
+}
+th{
+    color: #D14848;
+    background-color: #E9EDC9;
+}
+td{
+    background-color: #D5ED9F;
+    color: #FF0080;
+}
+td:hover{
+    color: rgb(255, 255, 255);
+    background-color: #afe138;
+}
+form{
+    width: 200px;
+    background-color: #D5ED9F;
+    color: #1E3E62;
+    padding: 20px;
+    margin: 0 auto;
+}
+label{
+    margin:10px;
+}
+input{
+    margin:10px 10px;
+    padding: 7px;
+    border: none;
+    font-size:13px;
+}
+input[type="submit"]{
+    color: #afe138;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+    border:1px solid #afe138;
+}
+input[type="submit"]:hover{
+    color: white;
+    background-color: #afe138;
+}
